@@ -1,8 +1,30 @@
 #!/usr/bin/env sh
 
-# Get the root of the git repository
+# Get repo root
 REPO_ROOT=$(git rev-parse --show-toplevel)
-cd "$REPO_ROOT"
 
-make ui-lint FIX=true
-make ui-provider-lint FIX=true
+# Record stash state before lint-staged runs
+STASH_BEFORE=$(git stash list | wc -l)
+
+# Get staged files list
+STAGED=$(git diff --cached --name-only --diff-filter=ACMR || true)
+
+# Run lint-staged in ui/ if there are staged files under ui/
+if echo "$STAGED" | grep -qE '^ui/'; then
+  (cd "$REPO_ROOT/ui" && npx lint-staged --relative)
+fi
+
+# Run lint-staged in provider-ui/ if there are staged files under provider-ui/
+if echo "$STAGED" | grep -qE '^provider-ui/'; then
+  (cd "$REPO_ROOT/provider-ui" && npx lint-staged --relative)
+fi
+
+# Verify stash was restored after lint-staged
+STASH_AFTER=$(git stash list | wc -l)
+if [ "$STASH_BEFORE" -ne "$STASH_AFTER" ]; then
+  echo "⚠️  Warning: git stash count changed during lint-staged execution"
+  echo "Before: $STASH_BEFORE stashes, After: $STASH_AFTER stashes"
+  echo "Your changes may have been stashed. Run: git stash pop"
+fi
+
+exit 0
