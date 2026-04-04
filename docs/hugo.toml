@@ -192,7 +192,7 @@ no = 'Sorry to hear that. Please <a href="https://github.com/meshery/meshery/iss
 [params.ui.readingtime]
 enable = false
 
-# hugo module configuration
+# hugo module configuratio
 
 [module]
   # uncomment line below for temporary local development of module
