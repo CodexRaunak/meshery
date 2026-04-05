@@ -24,7 +24,7 @@ enableGitInfo = true
 
 # disableKinds = ["taxonomy", "term"]
 
-# You can add your own taxonomies
+# You can add your own taxonomie
 [taxonomies]
 tag = "tags"
 category = "categories"
