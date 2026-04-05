@@ -51,7 +51,7 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
-          make docs-build-production
+          make docs-build-production BASE_URL="/"
           cp docs/CNAME docs/public/CNAME
           touch docs/public/.nojekyll
       - name: Deploy to GitHub Pages
