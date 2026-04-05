@@ -15,7 +15,7 @@ enableRobotsTXT = true
 [build]
 writeStats = true
 
-# Ignore in build
+
 ignoreFiles = ["^meetings/.*", "^notes/.*", "^integrations/.*" ]
 
 # Will give values to .Lastmod etc.
