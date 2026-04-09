@@ -260,12 +260,4 @@ Fields that are deprecated are marked with &lt;strong&gt;{warning-solid}&lt;/str
 &lt;/script&gt;
 
 &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.4/xlsx.full.min.js"&gt;&lt;/script&gt;
-&lt;/div&gt;</description></item><item><title>REST API Reference</title><link>/reference/rest-apis/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/reference/rest-apis/</guid><description>&lt;h2 id="mesherys-apis"&gt;
-	Meshery&amp;rsquo;s APIs
-&lt;/h2&gt;
-&lt;p&gt;Each of Meshery&amp;rsquo;s APIs are subject to the following authentication and authorization system. Meshery requires a valid token in order to allow clients to invoke its APIs.&lt;/p&gt;
-&lt;details&gt;
- &lt;summary&gt;Authentication&lt;/summary&gt;
- Requests to any of the API endpoints must be authenticated and include a valid JWT access token in the HTTP headers. The type of authentication is determined by the selected &lt;a href='../extensibility/providers'&gt;Providers&lt;/a&gt;. Use of the Local Provider, "None", puts Meshery into single-user mode and uses minimal, intentionally insecure authentication. 
-&lt;div class="alert alert-dark" role="alert"&gt;&lt;div class="h4 alert-heading" role="heading"&gt;What are authentication tokens?&lt;/div&gt;
-&lt;p&gt;Meshery authentication tokens allow users or systems to authenticate with Meshery Server via either its two clients, &lt;a href='../reference/mesheryctl'&gt;Meshery CLI&lt;/a&gt; and &lt;a href='../extensibility/api#how-to-get-your-token'&gt;Meshery UI&lt;/a&gt;, or its two APIs: &lt;a href='../reference/rest-apis'&gt;REST&lt;/a&gt; or &lt;a href='../reference/graphql-apis'&gt;GraphQL&lt;/a&gt;. &lt;p&gt;Meshery&amp;rsquo;s authentication token system provides secure access to Meshery&amp;rsquo;s management features.&lt;/p&gt;</description></item></channel></rss>
+&lt;/div&gt;</description></item></channel></rss>

@@ -9,7 +9,6 @@
         return $('<div>').text(str).html();
     }
 
-    
     function getSiteRootUrl() {
         const rootLink = document.querySelector("a.navbar-brand, #td-section-nav a.tree-root");
         const href = rootLink ? rootLink.getAttribute("href") : "/";
