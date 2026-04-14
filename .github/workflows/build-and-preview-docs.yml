@@ -103,10 +103,12 @@ jobs:
           path: gh-pages-maintenance
 
       - name: Prune old PR previews
+        id: prune-previews
         if: github.event.action != 'closed'
         run: |
           cd gh-pages-maintenance
           mkdir -p pr-preview
+          removed_prs=()
 
           mapfile -t previews < <(
             while IFS= read -r preview; do
@@ -123,9 +125,11 @@ jobs:
 
           for preview in "${previews[@]:PREVIEW_RETENTION_LIMIT}"; do
             rm -rf "pr-preview/$preview"
+            removed_prs+=("${preview#pr-}")
           done
 
           if git diff --quiet -- pr-preview; then
+            echo "removed_prs=" >> "$GITHUB_OUTPUT"
             exit 0
           fi
 
@@ -134,6 +138,56 @@ jobs:
           git add pr-preview
           git commit -m "Prune old PR previews"
           git push
+
+          echo "removed_prs=$(IFS=,; echo "${removed_prs[*]}")" >> "$GITHUB_OUTPUT"
+
+      - name: Comment on pruned previews
+        if: github.event.action != 'closed' && steps.prune-previews.outputs.removed_prs != ''
+        uses: actions/github-script@v7
+        env:
+          REMOVED_PRS: ${{ steps.prune-previews.outputs.removed_prs }}
+          PREVIEW_RETENTION_LIMIT: ${{ env.PREVIEW_RETENTION_LIMIT }}
+        with:
+          script: |
+            const removedPrs = process.env.REMOVED_PRS.split(",").filter(Boolean);
+            const retentionLimit = process.env.PREVIEW_RETENTION_LIMIT;
+            const header = "pr-preview";
+            const marker = `<!-- Sticky Pull Request Comment: ${header} -->`;
+            const body =
+              `${marker}\n` +
+              `Preview deployment removed.\n\n` +
+              `This PR preview was automatically pruned because we keep only the ${retentionLimit} most recently updated previews on GitHub Pages to stay within deployment size limits.\n\n` +
+              `If needed, push a new commit to this PR to generate a fresh preview.`;
+
+            for (const prNumber of removedPrs) {
+              const { data: comments } = await github.rest.issues.listComments({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: Number(prNumber),
+              });
+
+              const existingComment = comments.find((comment) =>
+                comment.user?.login === "github-actions[bot]" &&
+                comment.body?.includes(marker)
+              );
+
+              if (existingComment) {
+                await github.rest.issues.updateComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  comment_id: existingComment.id,
+                  body,
+                });
+                continue;
+              }
+
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: Number(prNumber),
+                body,
+              });
+            }
 
       - name: Comment PR with Preview URL
         if: github.event.action != 'closed'
