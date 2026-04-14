@@ -3,7 +3,7 @@ title = "Documentation"
 relativeURLs = true
 canonifyURLs = false
 
-# Language settings
+
 contentDir = "content/en"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
@@ -21,7 +21,7 @@ ignoreFiles = ["^meetings/.*", "^notes/.*", "^integrations/.*" ]
 # Will give values to .Lastmod etc.
 enableGitInfo = true
 
-# Comment out to enable taxonomies in Docsy
+
 # disableKinds = ["taxonomy", "term"]
 
 # You can add your own taxonomies
