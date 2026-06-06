@@ -85,8 +85,8 @@ mesheryctl adapter deploy linkerd --watch
 ## Screenshots
 
 Usage of mesheryctl adapter deploy
-![mesh-deploy-usage]({{< relurl "reference/images/deploy-mesh.png" >}})
+![mesh-deploy-usage](../../../images/deploy-mesh.png)
 
 ## See Also
 
-Go back to [command reference index]({{< ref "reference/mesheryctl/_index.md" >}}), if you want to add content manually to the CLI documentation, please refer to the [instruction]({{< ref "project/contributing/contributing-cli.md#preserving-manually-added-documentation" >}}) for guidance.
+Go back to [command reference index]({{< ref "reference/mesheryctl/_index.md" >}}), if you want to add content manually to the CLI documentation, please refer to the [instruction]({{< ref "project/contributing/contributing-cli/index.md#preserving-manually-added-documentation" >}}) for guidance.

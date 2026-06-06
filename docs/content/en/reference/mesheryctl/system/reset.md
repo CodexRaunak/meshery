@@ -54,8 +54,8 @@ mesheryctl system reset
 ## Screenshots
 
 Usage of mesheryctl system reset
-![reset-usage]({{< relurl "reference/images/reset.png" >}})
+![reset-usage](../../../images/reset.png)
 
 ## See Also
 
-Go back to [command reference index]({{< ref "reference/mesheryctl/_index.md" >}}), if you want to add content manually to the CLI documentation, please refer to the [instruction]({{< ref "project/contributing/contributing-cli.md#preserving-manually-added-documentation" >}}) for guidance.
+Go back to [command reference index]({{< ref "reference/mesheryctl/_index.md" >}}), if you want to add content manually to the CLI documentation, please refer to the [instruction]({{< ref "project/contributing/contributing-cli/index.md#preserving-manually-added-documentation" >}}) for guidance.

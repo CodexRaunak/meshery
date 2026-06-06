@@ -54,8 +54,8 @@ mesheryctl design view [design-name | ID]
 ## Screenshots
 
 Usage of mesheryctl design view
-![pattern-view-usage]({{< relurl "reference/images/patternView.png" >}})
+![pattern-view-usage](../../../images/patternView.png)
 
 ## See Also
 
-Go back to [command reference index]({{< ref "reference/mesheryctl/_index.md" >}}), if you want to add content manually to the CLI documentation, please refer to the [instruction]({{< ref "project/contributing/contributing-cli.md#preserving-manually-added-documentation" >}}) for guidance.
+Go back to [command reference index]({{< ref "reference/mesheryctl/_index.md" >}}), if you want to add content manually to the CLI documentation, please refer to the [instruction]({{< ref "project/contributing/contributing-cli/index.md#preserving-manually-added-documentation" >}}) for guidance.

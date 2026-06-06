@@ -66,9 +66,9 @@ categories: [project]
 <p><strong>Answer:</strong> Meshery runs on a <a href="{{< ref "installation/_index.md" >}}">number of platforms</a>. You are encouraged to use <code>mesheryctl</code> to configure and control Meshery deployments. Install `mesheryctl` using any of these options:</p>
 
 <ul>
-<li><a href="{{< ref "installation/linux-mac/bash.md" >}}">Bash user</a></li>
-<li><a href="{{< ref "installation/linux-mac/brew.md" >}}">Brew user</a></li>
-<li><a href="{{< ref "installation/windows/scoop.md" >}}">Scoop user</a></li>
+<li><a href="{{< ref "installation/linux-mac/bash/index.md" >}}">Bash user</a></li>
+<li><a href="{{< ref "installation/linux-mac/brew/index.md" >}}">Brew user</a></li>
+<li><a href="{{< ref "installation/windows/scoop/index.md" >}}">Scoop user</a></li>
 <li><a href="https://github.com/meshery/meshery/releases/latest">Direct download</a></li>
 </ul>
 </details>
@@ -154,7 +154,7 @@ categories: [project]
 <details>
 <summary>
 <strong>Question: Getting an error while running <code>make server</code> on Windows?</strong>
-</summary><strong>Answer:</strong> <p>On Windows, set up the project on Ubuntu WSL2 and you will be able to run the Meshery UI and the server. For more information please visit <a href="{{< ref "project/contributing/meshery-windows.md" >}}">Setting up Meshery Development Environment on Windows</a>.</p>
+</summary><strong>Answer:</strong> <p>On Windows, set up the project on Ubuntu WSL2 and you will be able to run the Meshery UI and the server. For more information please visit <a href="{{< ref "project/contributing/meshery-windows/index.md" >}}">Setting up Meshery Development Environment on Windows</a>.</p>
 </details>
 
 {{< discuss >}}

@@ -4,7 +4,7 @@ categories: [docker]
 aliases:
 - /installation/platforms/docker
 display_title: false
-image: /installation/docker/images/docker.svg
+image: installation/docker/images/docker.svg
 description: Install Meshery on Docker
 ---
 
