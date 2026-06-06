@@ -36,7 +36,7 @@ After creating a Workspace, of your next steps is to resource that Workspace. Li
 - One or more environments can be assigned to a workspace.
 - Same environment can be assigned to multiple workspaces.
 
-See "[Environments](/concepts/logical/environments)" section for more information.
+See "[Environments]({{< ref "concepts/logical/environments/index.md" >}})" section for more information.
 
 ### Designs
 
@@ -45,7 +45,7 @@ See "[Environments](/concepts/logical/environments)" section for more informatio
 - One ore more designs can be assigned to a workspace.
 - Same design can be assigned to multiple workspaces.
 
-See "[Meshery Designs](/concepts/logical/designs)" section for more information.
+See "[Meshery Designs]({{< ref "concepts/logical/designs/index.md" >}})" section for more information.
 
 ### Organizations
 
@@ -54,8 +54,8 @@ See "[Meshery Designs](/concepts/logical/designs)" section for more information.
 - Remote Providers can extend Meshery to include additional identity and user management features like heirarchical organizations, or teams (as user groups), and so on.
 - Remote Providers can extend Meshery to offer fine-grained permissions and access control to resources like Workspaces, Designs, Environments, and so on.
 
-Learn more about [extensible authorization](/extensibility/authorization).
- <!-- "[Organizations](/extensions/team-management)" section for more information. -->
+Learn more about [extensible authorization]({{< ref "reference/extensibility/authorization/index.md" >}}).
+ <!-- "[Organizations](team-management)" section for more information. -->
 
 <!-- ### Teams
 
@@ -63,7 +63,7 @@ Learn more about [extensible authorization](/extensibility/authorization).
 - One ore more teams can be assigned to a workspace.
 - Same team can be assigned to multiple workspaces.
 
-See "[Teams](/extensions/team-management)" section for more information. -->
+See "[Teams](team-management)" section for more information. -->
 
 ### Connections
 
@@ -71,7 +71,7 @@ See "[Teams](/extensions/team-management)" section for more information. -->
 - Connections can be assigned to one or more environments.
 - Same connection can be assigned to multiple environments.
 
-See "[Connections](/concepts/logical/connections)" section for more information.
+See "[Connections]({{< ref "concepts/logical/connections/index.md" >}})" section for more information.
 
 ## Best Practices
 
@@ -82,4 +82,3 @@ To make the most of Meshery Workspaces, here are some best practices:
 - Regularly review and update your Workspace's resources and configurations.
 
 Meshery Workspaces enhance collaboration within your teams, providing a structured environment for sharing and managing resources. By following best practices and understanding the core components of Workspaces, you can maximize the benefits of this feature in Meshery.
-
