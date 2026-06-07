@@ -57,43 +57,43 @@
  &lt;th style="text-align: left; padding: 10px; border-bottom: 2px solid #ccc;"&gt;Kubernetes Version&lt;/th&gt;
  &lt;th style="text-align: center; padding: 10px; border-bottom: 2px solid #ccc;"&gt;
  &lt;a href="https://github.com/meshery/meshery-istio" style="text-decoration: none; color: #1dd1a1; cursor: pointer;"&gt;
- &lt;img style="height: 1.5rem; vertical-align: text-bottom;" src="../../installation/compatibility-matrix/images/service-meshes/istio.svg" /&gt;
+ &lt;img style="height: 1.5rem; vertical-align: text-bottom;" src="/installation/compatibility-matrix/images/service-meshes/istio.svg" /&gt;
  meshery-istio
  &lt;/a&gt;
  &lt;/th&gt;
  &lt;th style="text-align: center; padding: 10px; border-bottom: 2px solid #ccc;"&gt;
  &lt;a href="https://github.com/meshery/meshery-linkerd" style="text-decoration: none; color: #1dd1a1; cursor: pointer;"&gt;
- &lt;img style="height: 1.5rem; vertical-align: text-bottom;" src="../../installation/compatibility-matrix/images/service-meshes/linkerd.svg" /&gt;
+ &lt;img style="height: 1.5rem; vertical-align: text-bottom;" src="/installation/compatibility-matrix/images/service-meshes/linkerd.svg" /&gt;
  meshery-linkerd
  &lt;/a&gt;
  &lt;/th&gt;
  &lt;th style="text-align: center; padding: 10px; border-bottom: 2px solid #ccc;"&gt;
  &lt;a href="https://github.com/meshery/meshery-kuma" style="text-decoration: none; color: #1dd1a1; cursor: pointer;"&gt;
- &lt;img style="height: 1.5rem; vertical-align: text-bottom;" src="../../installation/compatibility-matrix/images/service-meshes/kuma.svg" /&gt;
+ &lt;img style="height: 1.5rem; vertical-align: text-bottom;" src="/installation/compatibility-matrix/images/service-meshes/kuma.svg" /&gt;
  meshery-kuma
  &lt;/a&gt;
  &lt;/th&gt;
  &lt;th style="text-align: center; padding: 10px; border-bottom: 2px solid #ccc;"&gt;
  &lt;a href="https://github.com/meshery/meshery-nginx-sm" style="text-decoration: none; color: #1dd1a1; cursor: pointer;"&gt;
- &lt;img style="height: 1.5rem; vertical-align: text-bottom;" src="../../installation/compatibility-matrix/images/service-meshes/nginx-sm.svg" /&gt;
+ &lt;img style="height: 1.5rem; vertical-align: text-bottom;" src="/installation/compatibility-matrix/images/service-meshes/nginx-sm.svg" /&gt;
  meshery-nginx-sm
  &lt;/a&gt;
  &lt;/th&gt;
  &lt;th style="text-align: center; padding: 10px; border-bottom: 2px solid #ccc;"&gt;
  &lt;a href="https://github.com/meshery/meshery-traefik-mesh" style="text-decoration: none; color: #1dd1a1; cursor: pointer;"&gt;
- &lt;img style="height: 1.5rem; vertical-align: text-bottom;" src="../../installation/compatibility-matrix/images/service-meshes/traefik-mesh.svg" /&gt;
+ &lt;img style="height: 1.5rem; vertical-align: text-bottom;" src="/installation/compatibility-matrix/images/service-meshes/traefik-mesh.svg" /&gt;
  meshery-traefik-mesh
  &lt;/a&gt;
  &lt;/th&gt;
  &lt;th style="text-align: center; padding: 10px; border-bottom: 2px solid #ccc;"&gt;
  &lt;a href="https://github.com/meshery/meshery-cilium" style="text-decoration: none; color: #1dd1a1; cursor: pointer;"&gt;
- &lt;img style="height: 1.5rem; vertical-align: text-bottom;" src="../../installation/compatibility-matrix/images/service-meshes/cilium.svg" /&gt;
+ &lt;img style="height: 1.5rem; vertical-align: text-bottom;" src="/installation/compatibility-matrix/images/service-meshes/cilium.svg" /&gt;
  meshery-cilium
  &lt;/a&gt;
  &lt;/th&gt;
  &lt;th style="text-align: center; padding: 10px; border-bottom: 2px solid #ccc;"&gt;
  &lt;a href="https://github.com/meshery/meshery-consul" style="text-decoration: none; color: #1dd1a1; cursor: pointer;"&gt;
- &lt;img style="height: 1.5rem; vertical-align: text-bottom;" src="../../installation/compatibility-matrix/images/service-meshes/consul.svg" /&gt;
+ &lt;img style="height: 1.5rem; vertical-align: text-bottom;" src="/installation/compatibility-matrix/images/service-meshes/consul.svg" /&gt;
  meshery-consul
  &lt;/a&gt;
  &lt;/th&gt;
@@ -160,25 +160,25 @@
  if (status === "✓") {
  statusCells[i].innerHTML = `
  &lt;div class="tooltipss" style="text-align:center; cursor: pointer;"&gt;
- &lt;img src="../../installation/compatibility-matrix/images/service-meshes/passing.svg" class="yellowCheckbox" alt="Passing" /&gt;
+ &lt;img src="\/installation\/compatibility-matrix\/images\/service-meshes\/passing.svg" class="yellowCheckbox" alt="Passing" /&gt;
  &lt;span class="tooltiptext"&gt;Passing&lt;/span&gt;
  &lt;/div&gt;`;
  } else if (status === "✗") {
  statusCells[i].innerHTML = `
  &lt;div class="tooltipss" style="text-align:center; cursor: pointer;"&gt;
- &lt;img src="../../installation/compatibility-matrix/images/service-meshes/failing.svg" class="yellowCheckbox" alt="Failing" /&gt;
+ &lt;img src="\/installation\/compatibility-matrix\/images\/service-meshes\/failing.svg" class="yellowCheckbox" alt="Failing" /&gt;
  &lt;span class="tooltiptext"&gt;Failing&lt;/span&gt;
  &lt;/div&gt;`;
  } else if (status === "—") {
  statusCells[i].innerHTML = `
  &lt;div class="tooltipss" style="text-align:center; cursor: pointer;"&gt;
- &lt;img src="../../installation/compatibility-matrix/images/service-meshes/passing.svg" class="yellowCheckbox" alt="Partial" /&gt;
+ &lt;img src="\/installation\/compatibility-matrix\/images\/service-meshes\/passing.svg" class="yellowCheckbox" alt="Partial" /&gt;
  &lt;span class="tooltiptext"&gt;Partial&lt;/span&gt;
  &lt;/div&gt;`;
  } else if (status === "N/A") {
  statusCells[i].innerHTML = `
  &lt;div class="tooltipss" style="text-align:center; cursor: pointer;"&gt;
- &lt;img src="../../installation/compatibility-matrix/images/service-meshes/na-icon.svg" class="yellowCheckbox" alt="Not Applicable" /&gt;
+ &lt;img src="\/installation\/compatibility-matrix\/images\/service-meshes\/na-icon.svg" class="yellowCheckbox" alt="Not Applicable" /&gt;
  &lt;span class="tooltiptext"&gt;Not Applicable&lt;/span&gt;
  &lt;/div&gt;`;
  }
