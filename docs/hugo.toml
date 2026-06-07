@@ -3,7 +3,7 @@ title = "Documentation"
 relativeURLs = false
 canonifyURLs = false
 
-# Language settings
+
 contentDir = "content/en"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false

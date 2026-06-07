@@ -22,6 +22,9 @@ defaults:
   run:
     shell: bash
 
+env:
+  PREVIEW_RETENTION_LIMIT: 6
+
 jobs:
   build-and-deploy-preview:
     runs-on: ubuntu-24.04
@@ -29,7 +32,6 @@ jobs:
       removed_prs_json: ${{ steps.prune-previews.outputs.removed_prs_json }}
     env:
       HUGO_VERSION: 0.157.0
-      PREVIEW_RETENTION_LIMIT: 6
 
     steps:
       - name: Harden Runner
@@ -167,7 +169,7 @@ jobs:
 
       - name: Comment PR with Preview URL
         if: github.event.action != 'closed'
-        uses: marocchino/sticky-pull-request-comment@v2
+        uses: marocchino/sticky-pull-request-comment@v3
         with:
           header: pr-preview
           message: |
@@ -231,3 +233,25 @@ jobs:
           preview-branch: gh-pages
           umbrella-dir: pr-preview
           action: remove
+
+  comment-on-pruned-previews:
+    if: github.event.action != 'closed' && needs.build-and-deploy-preview.outputs.removed_prs_json != '[]'
+    needs: build-and-deploy-preview
+    runs-on: ubuntu-24.04
+    strategy:
+      fail-fast: false
+      matrix:
+        pr_number: ${{ fromJson(needs.build-and-deploy-preview.outputs.removed_prs_json) }}
+
+    steps:
+      - name: Update sticky comment for pruned preview
+        uses: marocchino/sticky-pull-request-comment@v3
+        with:
+          header: pr-preview
+          number: ${{ matrix.pr_number }}
+          message: |
+            Preview deployment for PR #${{ matrix.pr_number }} removed.
+
+            This PR preview was automatically pruned because we keep only the ${{ env.PREVIEW_RETENTION_LIMIT }} most recently updated previews on GitHub Pages to stay within deployment size limits.
+
+            If needed, push a new commit to this PR to generate a fresh preview.
