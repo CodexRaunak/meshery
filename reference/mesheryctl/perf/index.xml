@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>mesheryctl-perf on Documentation</title><link>/reference/mesheryctl/perf/</link><description>Recent content in mesheryctl-perf on Documentation</description><generator>Hugo</generator><language>en</language><atom:link href="/reference/mesheryctl/perf/index.xml" rel="self" type="application/rss+xml"/><item><title>mesheryctl-perf-apply</title><link>/reference/mesheryctl/perf/apply/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/reference/mesheryctl/perf/apply/</guid><description>&lt;h1 id="mesheryctl-perf-apply"&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>mesheryctl-perf on Documentation</title><link>/meshery/reference/mesheryctl/perf/</link><description>Recent content in mesheryctl-perf on Documentation</description><generator>Hugo</generator><language>en</language><atom:link href="/meshery/reference/mesheryctl/perf/index.xml" rel="self" type="application/rss+xml"/><item><title>mesheryctl-perf-apply</title><link>/meshery/reference/mesheryctl/perf/apply/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/meshery/reference/mesheryctl/perf/apply/</guid><description>&lt;h1 id="mesheryctl-perf-apply"&gt;
 	mesheryctl perf apply
 &lt;/h1&gt;
 &lt;p&gt;Run a Performance test&lt;/p&gt;
@@ -29,7 +29,7 @@ mesheryctl perf apply meshery-profile-new --url "https://google.com"
 
 &lt;/div&gt;
 &lt;/pre&gt; 
-&lt;p&gt;Execute a Performance test creating a new performance profile and pass certificate to be used&lt;/p&gt;</description></item><item><title>mesheryctl-perf-profile</title><link>/reference/mesheryctl/perf/profile/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/reference/mesheryctl/perf/profile/</guid><description>&lt;h1 id="mesheryctl-perf-profile"&gt;
+&lt;p&gt;Execute a Performance test creating a new performance profile and pass certificate to be used&lt;/p&gt;</description></item><item><title>mesheryctl-perf-profile</title><link>/meshery/reference/mesheryctl/perf/profile/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/meshery/reference/mesheryctl/perf/profile/</guid><description>&lt;h1 id="mesheryctl-perf-profile"&gt;
 	mesheryctl perf profile
 &lt;/h1&gt;
 &lt;p&gt;List performance profiles&lt;/p&gt;
@@ -94,7 +94,7 @@ mesheryctl perf profile test --view
 &lt;h2 id="see-also"&gt;
 	See Also
 &lt;/h2&gt;
-&lt;p&gt;Go back to &lt;a href="/reference/mesheryctl/"&gt;command reference index&lt;/a&gt;, if you want to add content manually to the CLI documentation, please refer to the &lt;a href="/project/contributing/contributing-cli/#preserving-manually-added-documentation"&gt;instruction&lt;/a&gt; for guidance.&lt;/p&gt;</description></item><item><title>mesheryctl-perf-result</title><link>/reference/mesheryctl/perf/result/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/reference/mesheryctl/perf/result/</guid><description>&lt;h1 id="mesheryctl-perf-result"&gt;
+&lt;p&gt;Go back to &lt;a href="/meshery/reference/mesheryctl/"&gt;command reference index&lt;/a&gt;, if you want to add content manually to the CLI documentation, please refer to the &lt;a href="/meshery/project/contributing/contributing-cli/#preserving-manually-added-documentation"&gt;instruction&lt;/a&gt; for guidance.&lt;/p&gt;</description></item><item><title>mesheryctl-perf-result</title><link>/meshery/reference/mesheryctl/perf/result/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/meshery/reference/mesheryctl/perf/result/</guid><description>&lt;h1 id="mesheryctl-perf-result"&gt;
 	mesheryctl perf result
 &lt;/h1&gt;
 &lt;p&gt;List performance test results&lt;/p&gt;

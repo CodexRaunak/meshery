@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>mesheryctl-component on Documentation</title><link>/reference/mesheryctl/component/</link><description>Recent content in mesheryctl-component on Documentation</description><generator>Hugo</generator><language>en</language><atom:link href="/reference/mesheryctl/component/index.xml" rel="self" type="application/rss+xml"/><item><title>mesheryctl-component-list</title><link>/reference/mesheryctl/component/list/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/reference/mesheryctl/component/list/</guid><description>&lt;h1 id="mesheryctl-component-list"&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>mesheryctl-component on Documentation</title><link>/meshery/reference/mesheryctl/component/</link><description>Recent content in mesheryctl-component on Documentation</description><generator>Hugo</generator><language>en</language><atom:link href="/meshery/reference/mesheryctl/component/index.xml" rel="self" type="application/rss+xml"/><item><title>mesheryctl-component-list</title><link>/meshery/reference/mesheryctl/component/list/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/meshery/reference/mesheryctl/component/list/</guid><description>&lt;h1 id="mesheryctl-component-list"&gt;
 	mesheryctl component list
 &lt;/h1&gt;
 &lt;p&gt;List registered components&lt;/p&gt;
@@ -36,7 +36,7 @@ mesheryctl component list --page [page-number] --pagesize [page-size]
 
 &lt;/div&gt;
 &lt;/pre&gt; 
-&lt;p&gt;Display the number of components present in Meshery&lt;/p&gt;</description></item><item><title>mesheryctl-component-search</title><link>/reference/mesheryctl/component/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/reference/mesheryctl/component/search/</guid><description>&lt;h1 id="mesheryctl-component-search"&gt;
+&lt;p&gt;Display the number of components present in Meshery&lt;/p&gt;</description></item><item><title>mesheryctl-component-search</title><link>/meshery/reference/mesheryctl/component/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/meshery/reference/mesheryctl/component/search/</guid><description>&lt;h1 id="mesheryctl-component-search"&gt;
 	mesheryctl component search
 &lt;/h1&gt;
 &lt;p&gt;Search registered components&lt;/p&gt;
@@ -98,7 +98,7 @@ mesheryctl component search [query-text] [--page 1]
 &lt;h2 id="see-also"&gt;
 	See Also
 &lt;/h2&gt;
-&lt;p&gt;Go back to &lt;a href="/reference/mesheryctl/"&gt;command reference index&lt;/a&gt;, if you want to add content manually to the CLI documentation, please refer to the &lt;a href="/project/contributing/contributing-cli/#preserving-manually-added-documentation"&gt;instruction&lt;/a&gt; for guidance.&lt;/p&gt;</description></item><item><title>mesheryctl-component-view</title><link>/reference/mesheryctl/component/view/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/reference/mesheryctl/component/view/</guid><description>&lt;h1 id="mesheryctl-component-view"&gt;
+&lt;p&gt;Go back to &lt;a href="/meshery/reference/mesheryctl/"&gt;command reference index&lt;/a&gt;, if you want to add content manually to the CLI documentation, please refer to the &lt;a href="/meshery/project/contributing/contributing-cli/#preserving-manually-added-documentation"&gt;instruction&lt;/a&gt; for guidance.&lt;/p&gt;</description></item><item><title>mesheryctl-component-view</title><link>/meshery/reference/mesheryctl/component/view/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/meshery/reference/mesheryctl/component/view/</guid><description>&lt;h1 id="mesheryctl-component-view"&gt;
 	mesheryctl component view
 &lt;/h1&gt;
 &lt;p&gt;View registered components&lt;/p&gt;
@@ -160,4 +160,4 @@ mesheryctl component view [component-name | component-id] -o [json|yaml] --save
 &lt;h2 id="see-also"&gt;
 	See Also
 &lt;/h2&gt;
-&lt;p&gt;Go back to &lt;a href="/reference/mesheryctl/"&gt;command reference index&lt;/a&gt;, if you want to add content manually to the CLI documentation, please refer to the &lt;a href="/project/contributing/contributing-cli/#preserving-manually-added-documentation"&gt;instruction&lt;/a&gt; for guidance.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;Go back to &lt;a href="/meshery/reference/mesheryctl/"&gt;command reference index&lt;/a&gt;, if you want to add content manually to the CLI documentation, please refer to the &lt;a href="/meshery/project/contributing/contributing-cli/#preserving-manually-added-documentation"&gt;instruction&lt;/a&gt; for guidance.&lt;/p&gt;</description></item></channel></rss>

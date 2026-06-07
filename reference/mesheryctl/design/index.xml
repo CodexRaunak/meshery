@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>mesheryctl-design on Documentation</title><link>/reference/mesheryctl/design/</link><description>Recent content in mesheryctl-design on Documentation</description><generator>Hugo</generator><language>en</language><atom:link href="/reference/mesheryctl/design/index.xml" rel="self" type="application/rss+xml"/><item><title>mesheryctl-design-apply</title><link>/reference/mesheryctl/design/apply/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/reference/mesheryctl/design/apply/</guid><description>&lt;h1 id="mesheryctl-design-apply"&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>mesheryctl-design on Documentation</title><link>/meshery/reference/mesheryctl/design/</link><description>Recent content in mesheryctl-design on Documentation</description><generator>Hugo</generator><language>en</language><atom:link href="/meshery/reference/mesheryctl/design/index.xml" rel="self" type="application/rss+xml"/><item><title>mesheryctl-design-apply</title><link>/meshery/reference/mesheryctl/design/apply/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/meshery/reference/mesheryctl/design/apply/</guid><description>&lt;h1 id="mesheryctl-design-apply"&gt;
 	mesheryctl design apply
 &lt;/h1&gt;
 &lt;p&gt;Apply design file&lt;/p&gt;
@@ -55,7 +55,7 @@ mesheryctl design apply [design-name]
 	Screenshots
 &lt;/h2&gt;
 &lt;p&gt;Usage of mesheryctl design apply
-&lt;img class="content-image" src="../../../images/patternApply.png" alt="pattern-apply-usage" /&gt;&lt;/p&gt;</description></item><item><title>mesheryctl-design-delete</title><link>/reference/mesheryctl/design/delete/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/reference/mesheryctl/design/delete/</guid><description>&lt;h1 id="mesheryctl-design-delete"&gt;
+&lt;img class="content-image" src="../../../images/patternApply.png" alt="pattern-apply-usage" /&gt;&lt;/p&gt;</description></item><item><title>mesheryctl-design-delete</title><link>/meshery/reference/mesheryctl/design/delete/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/meshery/reference/mesheryctl/design/delete/</guid><description>&lt;h1 id="mesheryctl-design-delete"&gt;
 	mesheryctl design delete
 &lt;/h1&gt;
 &lt;p&gt;Delete design file&lt;/p&gt;
@@ -103,7 +103,7 @@ mesheryctl design delete [file | URL]
 &lt;h2 id="see-also"&gt;
 	See Also
 &lt;/h2&gt;
-&lt;p&gt;Go back to &lt;a href="/reference/mesheryctl/"&gt;command reference index&lt;/a&gt;, if you want to add content manually to the CLI documentation, please refer to the &lt;a href="/project/contributing/contributing-cli/#preserving-manually-added-documentation"&gt;instruction&lt;/a&gt; for guidance.&lt;/p&gt;</description></item><item><title>mesheryctl-design-deploy</title><link>/reference/mesheryctl/design/deploy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/reference/mesheryctl/design/deploy/</guid><description>&lt;h1 id="mesheryctl-design-deploy"&gt;
+&lt;p&gt;Go back to &lt;a href="/meshery/reference/mesheryctl/"&gt;command reference index&lt;/a&gt;, if you want to add content manually to the CLI documentation, please refer to the &lt;a href="/meshery/project/contributing/contributing-cli/#preserving-manually-added-documentation"&gt;instruction&lt;/a&gt; for guidance.&lt;/p&gt;</description></item><item><title>mesheryctl-design-deploy</title><link>/meshery/reference/mesheryctl/design/deploy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/meshery/reference/mesheryctl/design/deploy/</guid><description>&lt;h1 id="mesheryctl-design-deploy"&gt;
 	mesheryctl design deploy
 &lt;/h1&gt;
 &lt;p&gt;Deploy design&lt;/p&gt;
@@ -154,7 +154,7 @@ mesheryctl design deploy -f [filepath] -s [source type]
 	Screenshots
 &lt;/h2&gt;
 &lt;p&gt;Usage of mesheryctl design deploy
-&lt;img class="content-image" src="../../../images/app-onboard.png" alt="pattern-onboard-usage" /&gt;&lt;/p&gt;</description></item><item><title>mesheryctl-design-evaluate</title><link>/reference/mesheryctl/design/evaluate/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/reference/mesheryctl/design/evaluate/</guid><description>&lt;h1 id="mesheryctl-design-evaluate"&gt;
+&lt;img class="content-image" src="../../../images/app-onboard.png" alt="pattern-onboard-usage" /&gt;&lt;/p&gt;</description></item><item><title>mesheryctl-design-evaluate</title><link>/meshery/reference/mesheryctl/design/evaluate/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/meshery/reference/mesheryctl/design/evaluate/</guid><description>&lt;h1 id="mesheryctl-design-evaluate"&gt;
 	mesheryctl design evaluate
 &lt;/h1&gt;
 &lt;p&gt;Evaluate a design&lt;/p&gt;
@@ -180,7 +180,7 @@ mesheryctl design evaluate -f design.yaml -o evaluated-design.yaml
 
 &lt;/div&gt;
 &lt;/pre&gt; 
-&lt;p&gt;Evaluate a design by ID&lt;/p&gt;</description></item><item><title>mesheryctl-design-export</title><link>/reference/mesheryctl/design/export/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/reference/mesheryctl/design/export/</guid><description>&lt;h1 id="mesheryctl-design-export"&gt;
+&lt;p&gt;Evaluate a design by ID&lt;/p&gt;</description></item><item><title>mesheryctl-design-export</title><link>/meshery/reference/mesheryctl/design/export/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/meshery/reference/mesheryctl/design/export/</guid><description>&lt;h1 id="mesheryctl-design-export"&gt;
 	mesheryctl design export
 &lt;/h1&gt;
 &lt;p&gt;Export a design from Meshery&lt;/p&gt;
@@ -191,7 +191,7 @@ mesheryctl design evaluate -f design.yaml -o evaluated-design.yaml
 You can specify the design by its name or ID and optionally define the type of design.
 The command also supports specifying an output directory where the exported design will be saved.
 By default, the exported design will be saved in the current directory. The different types of design
-type allowed are oci, original, and current. The default design type is current.&lt;/p&gt;</description></item><item><title>mesheryctl-design-import</title><link>/reference/mesheryctl/design/import/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/reference/mesheryctl/design/import/</guid><description>&lt;h1 id="mesheryctl-design-import"&gt;
+type allowed are oci, original, and current. The default design type is current.&lt;/p&gt;</description></item><item><title>mesheryctl-design-import</title><link>/meshery/reference/mesheryctl/design/import/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/meshery/reference/mesheryctl/design/import/</guid><description>&lt;h1 id="mesheryctl-design-import"&gt;
 	mesheryctl design import
 &lt;/h1&gt;
 &lt;p&gt;Import a Meshery design&lt;/p&gt;
@@ -215,7 +215,7 @@ mesheryctl design import [flags]
 &lt;h2 id="examples"&gt;
 	Examples
 &lt;/h2&gt;
-&lt;p&gt;Import design manifest&lt;/p&gt;</description></item><item><title>mesheryctl-design-list</title><link>/reference/mesheryctl/design/list/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/reference/mesheryctl/design/list/</guid><description>&lt;h1 id="mesheryctl-design-list"&gt;
+&lt;p&gt;Import design manifest&lt;/p&gt;</description></item><item><title>mesheryctl-design-list</title><link>/meshery/reference/mesheryctl/design/list/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/meshery/reference/mesheryctl/design/list/</guid><description>&lt;h1 id="mesheryctl-design-list"&gt;
 	mesheryctl design list
 &lt;/h1&gt;
 &lt;p&gt;List designs&lt;/p&gt;
@@ -253,7 +253,7 @@ mesheryctl design list --page [pange-number]
 
 &lt;/div&gt;
 &lt;/pre&gt; 
-&lt;p&gt;Display a list of all available designs with custom page size (10 designs per page by default)&lt;/p&gt;</description></item><item><title>mesheryctl-design-undeploy</title><link>/reference/mesheryctl/design/undeploy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/reference/mesheryctl/design/undeploy/</guid><description>&lt;h1 id="mesheryctl-design-undeploy"&gt;
+&lt;p&gt;Display a list of all available designs with custom page size (10 designs per page by default)&lt;/p&gt;</description></item><item><title>mesheryctl-design-undeploy</title><link>/meshery/reference/mesheryctl/design/undeploy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/meshery/reference/mesheryctl/design/undeploy/</guid><description>&lt;h1 id="mesheryctl-design-undeploy"&gt;
 	mesheryctl design undeploy
 &lt;/h1&gt;
 &lt;p&gt;Undeploy design&lt;/p&gt;
@@ -301,7 +301,7 @@ mesheryctl design undeploy -f [filepath]
 &lt;h2 id="see-also"&gt;
 	See Also
 &lt;/h2&gt;
-&lt;p&gt;Go back to &lt;a href="/reference/mesheryctl/"&gt;command reference index&lt;/a&gt;, if you want to add content manually to the CLI documentation, please refer to the &lt;a href="/project/contributing/contributing-cli/#preserving-manually-added-documentation"&gt;instruction&lt;/a&gt; for guidance.&lt;/p&gt;</description></item><item><title>mesheryctl-design-view</title><link>/reference/mesheryctl/design/view/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/reference/mesheryctl/design/view/</guid><description>&lt;h1 id="mesheryctl-design-view"&gt;
+&lt;p&gt;Go back to &lt;a href="/meshery/reference/mesheryctl/"&gt;command reference index&lt;/a&gt;, if you want to add content manually to the CLI documentation, please refer to the &lt;a href="/meshery/project/contributing/contributing-cli/#preserving-manually-added-documentation"&gt;instruction&lt;/a&gt; for guidance.&lt;/p&gt;</description></item><item><title>mesheryctl-design-view</title><link>/meshery/reference/mesheryctl/design/view/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/meshery/reference/mesheryctl/design/view/</guid><description>&lt;h1 id="mesheryctl-design-view"&gt;
 	mesheryctl design view
 &lt;/h1&gt;
 &lt;p&gt;Display a design content&lt;/p&gt;

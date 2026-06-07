@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>mesheryctl-relationship on Documentation</title><link>/reference/mesheryctl/relationship/</link><description>Recent content in mesheryctl-relationship on Documentation</description><generator>Hugo</generator><language>en</language><atom:link href="/reference/mesheryctl/relationship/index.xml" rel="self" type="application/rss+xml"/><item><title>mesheryctl-relationship-generate</title><link>/reference/mesheryctl/relationship/generate/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/reference/mesheryctl/relationship/generate/</guid><description>&lt;h1 id="mesheryctl-relationship-generate"&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>mesheryctl-relationship on Documentation</title><link>/meshery/reference/mesheryctl/relationship/</link><description>Recent content in mesheryctl-relationship on Documentation</description><generator>Hugo</generator><language>en</language><atom:link href="/meshery/reference/mesheryctl/relationship/index.xml" rel="self" type="application/rss+xml"/><item><title>mesheryctl-relationship-generate</title><link>/meshery/reference/mesheryctl/relationship/generate/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/meshery/reference/mesheryctl/relationship/generate/</guid><description>&lt;h1 id="mesheryctl-relationship-generate"&gt;
 	mesheryctl relationship generate
 &lt;/h1&gt;
 &lt;p&gt;Generate relationships documents&lt;/p&gt;
@@ -62,7 +62,7 @@ mesheryctl relationship generate --spreadsheet-id [Spreadsheet ID] --spreadsheet
 &lt;h2 id="see-also"&gt;
 	See Also
 &lt;/h2&gt;
-&lt;p&gt;Go back to &lt;a href="/reference/mesheryctl/"&gt;command reference index&lt;/a&gt;, if you want to add content manually to the CLI documentation, please refer to the &lt;a href="/project/contributing/contributing-cli/#preserving-manually-added-documentation"&gt;instruction&lt;/a&gt; for guidance.&lt;/p&gt;</description></item><item><title>mesheryctl-relationship-list</title><link>/reference/mesheryctl/relationship/list/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/reference/mesheryctl/relationship/list/</guid><description>&lt;h1 id="mesheryctl-relationship-list"&gt;
+&lt;p&gt;Go back to &lt;a href="/meshery/reference/mesheryctl/"&gt;command reference index&lt;/a&gt;, if you want to add content manually to the CLI documentation, please refer to the &lt;a href="/meshery/project/contributing/contributing-cli/#preserving-manually-added-documentation"&gt;instruction&lt;/a&gt; for guidance.&lt;/p&gt;</description></item><item><title>mesheryctl-relationship-list</title><link>/meshery/reference/mesheryctl/relationship/list/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/meshery/reference/mesheryctl/relationship/list/</guid><description>&lt;h1 id="mesheryctl-relationship-list"&gt;
 	mesheryctl relationship list
 &lt;/h1&gt;
 &lt;p&gt;List registered relationships&lt;/p&gt;
@@ -132,7 +132,7 @@ mesheryctl relationship list --count
 &lt;h2 id="see-also"&gt;
 	See Also
 &lt;/h2&gt;
-&lt;p&gt;Go back to &lt;a href="/reference/mesheryctl/"&gt;command reference index&lt;/a&gt;, if you want to add content manually to the CLI documentation, please refer to the &lt;a href="/project/contributing/contributing-cli/#preserving-manually-added-documentation"&gt;instruction&lt;/a&gt; for guidance.&lt;/p&gt;</description></item><item><title>mesheryctl-relationship-search</title><link>/reference/mesheryctl/relationship/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/reference/mesheryctl/relationship/search/</guid><description>&lt;h1 id="mesheryctl-relationship-search"&gt;
+&lt;p&gt;Go back to &lt;a href="/meshery/reference/mesheryctl/"&gt;command reference index&lt;/a&gt;, if you want to add content manually to the CLI documentation, please refer to the &lt;a href="/meshery/project/contributing/contributing-cli/#preserving-manually-added-documentation"&gt;instruction&lt;/a&gt; for guidance.&lt;/p&gt;</description></item><item><title>mesheryctl-relationship-search</title><link>/meshery/reference/mesheryctl/relationship/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/meshery/reference/mesheryctl/relationship/search/</guid><description>&lt;h1 id="mesheryctl-relationship-search"&gt;
 	mesheryctl relationship search
 &lt;/h1&gt;
 &lt;p&gt;Search registered relationship(s)&lt;/p&gt;
@@ -190,7 +190,7 @@ mesheryctl relationship search [--kind &lt;kind&gt;] [--page &lt;int&gt;]
 &lt;h2 id="see-also"&gt;
 	See Also
 &lt;/h2&gt;
-&lt;p&gt;Go back to &lt;a href="/reference/mesheryctl/"&gt;command reference index&lt;/a&gt;, if you want to add content manually to the CLI documentation, please refer to the &lt;a href="/project/contributing/contributing-cli/#preserving-manually-added-documentation"&gt;instruction&lt;/a&gt; for guidance.&lt;/p&gt;</description></item><item><title>mesheryctl-relationship-view</title><link>/reference/mesheryctl/relationship/view/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/reference/mesheryctl/relationship/view/</guid><description>&lt;h1 id="mesheryctl-relationship-view"&gt;
+&lt;p&gt;Go back to &lt;a href="/meshery/reference/mesheryctl/"&gt;command reference index&lt;/a&gt;, if you want to add content manually to the CLI documentation, please refer to the &lt;a href="/meshery/project/contributing/contributing-cli/#preserving-manually-added-documentation"&gt;instruction&lt;/a&gt; for guidance.&lt;/p&gt;</description></item><item><title>mesheryctl-relationship-view</title><link>/meshery/reference/mesheryctl/relationship/view/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/meshery/reference/mesheryctl/relationship/view/</guid><description>&lt;h1 id="mesheryctl-relationship-view"&gt;
 	mesheryctl relationship view
 &lt;/h1&gt;
 &lt;p&gt;view relationships of a model by its name&lt;/p&gt;

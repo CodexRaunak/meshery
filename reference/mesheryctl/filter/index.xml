@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>mesheryctl-filter on Documentation</title><link>/reference/mesheryctl/filter/</link><description>Recent content in mesheryctl-filter on Documentation</description><generator>Hugo</generator><language>en</language><atom:link href="/reference/mesheryctl/filter/index.xml" rel="self" type="application/rss+xml"/><item><title>mesheryctl-filter-delete</title><link>/reference/mesheryctl/filter/delete/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/reference/mesheryctl/filter/delete/</guid><description>&lt;h1 id="mesheryctl-filter-delete"&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>mesheryctl-filter on Documentation</title><link>/meshery/reference/mesheryctl/filter/</link><description>Recent content in mesheryctl-filter on Documentation</description><generator>Hugo</generator><language>en</language><atom:link href="/meshery/reference/mesheryctl/filter/index.xml" rel="self" type="application/rss+xml"/><item><title>mesheryctl-filter-delete</title><link>/meshery/reference/mesheryctl/filter/delete/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/meshery/reference/mesheryctl/filter/delete/</guid><description>&lt;h1 id="mesheryctl-filter-delete"&gt;
 	mesheryctl filter delete
 &lt;/h1&gt;
 &lt;p&gt;Delete a filter file&lt;/p&gt;
@@ -46,7 +46,7 @@ mesheryctl filter delete [filter-name | ID]
 &lt;h2 id="see-also"&gt;
 	See Also
 &lt;/h2&gt;
-&lt;p&gt;Go back to &lt;a href="/reference/mesheryctl/"&gt;command reference index&lt;/a&gt;, if you want to add content manually to the CLI documentation, please refer to the &lt;a href="/project/contributing/contributing-cli/#preserving-manually-added-documentation"&gt;instruction&lt;/a&gt; for guidance.&lt;/p&gt;</description></item><item><title>mesheryctl-filter-import</title><link>/reference/mesheryctl/filter/import/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/reference/mesheryctl/filter/import/</guid><description>&lt;h1 id="mesheryctl-filter-import"&gt;
+&lt;p&gt;Go back to &lt;a href="/meshery/reference/mesheryctl/"&gt;command reference index&lt;/a&gt;, if you want to add content manually to the CLI documentation, please refer to the &lt;a href="/meshery/project/contributing/contributing-cli/#preserving-manually-added-documentation"&gt;instruction&lt;/a&gt; for guidance.&lt;/p&gt;</description></item><item><title>mesheryctl-filter-import</title><link>/meshery/reference/mesheryctl/filter/import/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/meshery/reference/mesheryctl/filter/import/</guid><description>&lt;h1 id="mesheryctl-filter-import"&gt;
 	mesheryctl filter import
 &lt;/h1&gt;
 &lt;p&gt;Import a WASM filter&lt;/p&gt;
@@ -79,7 +79,7 @@ mesheryctl filter import https://example.com/myfilter.wasm
 &lt;/pre&gt; 
 &lt;p&gt;Add WASM configuration
 If the string is a valid file in the filesystem, the file is read and passed as a string. Otherwise, the string is passed as is.
-Use quotes if the string contains spaces&lt;/p&gt;</description></item><item><title>mesheryctl-filter-list</title><link>/reference/mesheryctl/filter/list/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/reference/mesheryctl/filter/list/</guid><description>&lt;h1 id="mesheryctl-filter-list"&gt;
+Use quotes if the string contains spaces&lt;/p&gt;</description></item><item><title>mesheryctl-filter-list</title><link>/meshery/reference/mesheryctl/filter/list/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/meshery/reference/mesheryctl/filter/list/</guid><description>&lt;h1 id="mesheryctl-filter-list"&gt;
 	mesheryctl filter list
 &lt;/h1&gt;
 &lt;p&gt;List filters&lt;/p&gt;
@@ -141,7 +141,7 @@ mesheryctl filter list 'Test Filter' (maximum 25 filters)
 &lt;h2 id="see-also"&gt;
 	See Also
 &lt;/h2&gt;
-&lt;p&gt;Go back to &lt;a href="/reference/mesheryctl/"&gt;command reference index&lt;/a&gt;, if you want to add content manually to the CLI documentation, please refer to the &lt;a href="/project/contributing/contributing-cli/#preserving-manually-added-documentation"&gt;instruction&lt;/a&gt; for guidance.&lt;/p&gt;</description></item><item><title>mesheryctl-filter-view</title><link>/reference/mesheryctl/filter/view/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/reference/mesheryctl/filter/view/</guid><description>&lt;h1 id="mesheryctl-filter-view"&gt;
+&lt;p&gt;Go back to &lt;a href="/meshery/reference/mesheryctl/"&gt;command reference index&lt;/a&gt;, if you want to add content manually to the CLI documentation, please refer to the &lt;a href="/meshery/project/contributing/contributing-cli/#preserving-manually-added-documentation"&gt;instruction&lt;/a&gt; for guidance.&lt;/p&gt;</description></item><item><title>mesheryctl-filter-view</title><link>/meshery/reference/mesheryctl/filter/view/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/meshery/reference/mesheryctl/filter/view/</guid><description>&lt;h1 id="mesheryctl-filter-view"&gt;
 	mesheryctl filter view
 &lt;/h1&gt;
 &lt;p&gt;View filter(s)&lt;/p&gt;
