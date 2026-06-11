@@ -59,7 +59,7 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
-          make docs-build-production BASE_URL="/"
+          make docs-build-production BASE_URL="/meshery"
           cp docs/CNAME docs/public/CNAME
           touch docs/public/.nojekyll
           if [ -d gh-pages-existing/pr-preview ]; then
