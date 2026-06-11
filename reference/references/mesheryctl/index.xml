@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Command Line Reference on Documentation</title><link>/docs/reference/references/mesheryctl/</link><description>Recent content in Command Line Reference on Documentation</description><generator>Hugo</generator><language>en</language><atom:link href="/docs/reference/references/mesheryctl/index.xml" rel="self" type="application/rss+xml"/><item><title>mesheryctl-completion</title><link>/docs/reference/references/mesheryctl/completion/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/reference/references/mesheryctl/completion/</guid><description>&lt;h1 id="mesheryctl-completion"&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Command Line Reference on Documentation</title><link>/meshery/reference/references/mesheryctl/</link><description>Recent content in Command Line Reference on Documentation</description><generator>Hugo</generator><language>en</language><atom:link href="/meshery/reference/references/mesheryctl/index.xml" rel="self" type="application/rss+xml"/><item><title>mesheryctl-completion</title><link>/meshery/reference/references/mesheryctl/completion/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/meshery/reference/references/mesheryctl/completion/</guid><description>&lt;h1 id="mesheryctl-completion"&gt;
 	mesheryctl completion
 &lt;/h1&gt;
 &lt;p&gt;Generate shell completion scripts&lt;/p&gt;
@@ -65,7 +65,7 @@ mesheryctl completion bash &gt; $(brew --prefix)/etc/bash_completion.d/mesheryct
 &lt;/h3&gt;
 &lt;p&gt;If shell completion is not already enabled in your environment you will need
 to enable it. You can execute the following once:
-Might need to start a new shell for this setup to take effect.&lt;/p&gt;</description></item><item><title>mesheryctl-exp</title><link>/docs/reference/references/mesheryctl/exp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/reference/references/mesheryctl/exp/</guid><description>&lt;h1 id="mesheryctl-exp"&gt;
+Might need to start a new shell for this setup to take effect.&lt;/p&gt;</description></item><item><title>mesheryctl-exp</title><link>/meshery/reference/references/mesheryctl/exp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/meshery/reference/references/mesheryctl/exp/</guid><description>&lt;h1 id="mesheryctl-exp"&gt;
 	mesheryctl exp
 &lt;/h1&gt;
 &lt;p&gt;Preview experimental commands&lt;/p&gt;
@@ -101,7 +101,7 @@ mesheryctl exp [flags]
 &lt;h2 id="see-also"&gt;
 	See Also
 &lt;/h2&gt;
-&lt;p&gt;Go back to &lt;a href="/docs/reference/references/mesheryctl/"&gt;command reference index&lt;/a&gt;, if you want to add content manually to the CLI documentation, please refer to the &lt;a href="/docs/project/contributing/contributing-cli/#preserving-manually-added-documentation"&gt;instruction&lt;/a&gt; for guidance.&lt;/p&gt;</description></item><item><title>mesheryctl-version</title><link>/docs/reference/references/mesheryctl/version/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/reference/references/mesheryctl/version/</guid><description>&lt;h1 id="mesheryctl-version"&gt;
+&lt;p&gt;Go back to &lt;a href="/meshery/reference/references/mesheryctl/"&gt;command reference index&lt;/a&gt;, if you want to add content manually to the CLI documentation, please refer to the &lt;a href="/meshery/project/contributing/contributing-cli/#preserving-manually-added-documentation"&gt;instruction&lt;/a&gt; for guidance.&lt;/p&gt;</description></item><item><title>mesheryctl-version</title><link>/meshery/reference/references/mesheryctl/version/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/meshery/reference/references/mesheryctl/version/</guid><description>&lt;h1 id="mesheryctl-version"&gt;
 	mesheryctl version
 &lt;/h1&gt;
 &lt;p&gt;Show Meshery CLI and Server versions&lt;/p&gt;
